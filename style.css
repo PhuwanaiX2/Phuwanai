@@ -1,0 +1,216 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    background-color: #f8f9fa;
+    /* สีพื้นหลังที่สว่าง */
+    color: #333;
+    /* สีตัวอักษรหลัก */
+    padding: 20px;
+  }
+
+ 
+
+  .container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    /* สีพื้นหลังของคอนเทนเนอร์ */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid rgb(219, 219, 219);
+    padding: 0px 10px;
+    /* เพิ่ม padding รอบ ๆ header */
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+  }
+
+  .profile-name {
+    text-align: center;
+    padding: 10px;
+
+    .font-eng {
+      font-size: 52px;
+      margin: 0;
+      color: #007bff;
+      /* สีฟ้า */
+    }
+
+    .font-thai {
+      font-size: 24px;
+      margin: 0;
+      color: #5d5d5d;
+      /* สีเทาเข้ม */
+    }
+
+    .font-role {
+      font-size: 18px;
+      color: #6c757d;
+      /* สีเทาอ่อน */
+    }
+  }
+
+
+  .image-profile {
+    width: 150px;
+    /* ขนาดภาพ */
+    height: 150px;
+    /* ขนาดภาพ */
+    border-radius: 50%;
+    /* ทำให้เป็นวงกลม */
+    object-fit: scale-down;
+    /* ปรับภาพให้เต็มกรอบ */
+    border: 3px solid #006eff;
+  }
+
+  .content {
+    margin-top: 20px;
+  }
+
+  .about-me,
+  .education {
+    margin-bottom: 20px;
+    ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    border-left: 4px solid #2980b9;
+    /* เส้นด้านซ้าย */
+  }
+
+  li img {
+    width: 24px;
+    /* ขนาดของโลโก้ */
+    height: 24px;
+    /* รักษาสัดส่วน */
+    margin-right: 10px;
+    /* เว้นระยะห่างจากข้อความ */
+  }
+  }
+
+  .skill {
+    padding-bottom: 30px;
+    display: block;
+    justify-content: center;
+  }
+
+  .section {
+    margin: -10px;
+    padding: 0px 20px;
+    color: #4b4b4b;
+
+    .Languages,
+    .Frameworks,
+    .Databases,
+    .Tools {
+      display: flex;
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #343a40;
+    /* สีเข้มสำหรับ footer */
+    color: white;
+    /* ตัวอักษรสีขาว */
+    padding: 20px;
+    border-radius: 0 0 8px 8px;
+    /* มุมโค้งที่ด้านล่าง */
+    flex-wrap: wrap;
+  }
+
+  .contact-info div {
+    margin-bottom: 10px;
+    /* ระยะห่างระหว่างข้อมูลการติดต่อ */
+    color: #bdc3c7;
+    /* สีตัวอักษรที่อ่อนลง */
+  }
+
+  .social-links {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .social img {
+    transition: transform 0.3s;
+  }
+
+  .social img:hover {
+    transform: scale(1.1);
+    /* ขยายเมื่อ hover */
+  }
+
+
+  .icon img {
+    transition: transform 0.3s;
+  }
+
+  .icon img:hover {
+    transform: scale(1.1);
+    /* ขยายเมื่อ hover */
+  }
+
+  .card {
+display: flex;
+justify-content: space-evenly;
+border: 1px solid #ccc; /* Optional: add a border */
+border-radius: 8px; /* Optional: add rounded corners */
+margin-bottom: 15px;
+flex-wrap: wrap;
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    border-left: 4px solid #b94629;
+    background-color: #f5f5f5;
+    flex-wrap: wrap;
+  }
+
+}
+
+.card-image img {
+padding: 0px 10px;
+    width: 250px;
+    /* ขนาดภาพ */
+    height: 100%;
+    /* ทำให้เป็นวงกลม */
+    object-fit: scale-down;
+    /* ปรับภาพให้เต็มกรอบ */
+    border-radius: 30px;
+    
+
+}
+
+.card-content {
+padding: 20px; /* Space between the content and edges */
+display: flex;
+flex-direction: column; /* Stack items vertically */
+justify-content: center; /* Center items vertically */
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+
